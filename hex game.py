@@ -11,7 +11,6 @@ class main():
         self.root = tkinter.Tk()
         self.root.bind("<Key>",self.number_keys)
         self.root.title("hex attack")
-        self.root.attributes("-transparentcolor","yellow")
         #self.root.configure(background="yellow")
         self.canvas = tkinter.Canvas()
         self.canvas.grid(row=0,column=0,columnspan=8,sticky=tkinter.NSEW)
